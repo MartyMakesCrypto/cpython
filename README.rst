@@ -127,15 +127,12 @@ The final step is to build the actual interpreter, using the information
 collected from the instrumented one.  The end result will be a Python binary
 that is optimized; suitable for distribution or production installation.
 
-
 Link Time Optimization
 ^^^^^^^^^^^^^^^^^^^^^^
-
 Enabled via configure's ``--with-lto`` flag.  LTO takes advantage of the
 ability of recent compiler toolchains to optimize across the otherwise
 arbitrary ``.o`` file boundary when building final executables or shared
 libraries for additional performance gains.
-
 
 What's New
 ----------
@@ -149,7 +146,6 @@ accounting of changes can only be gleaned from the `commit history
 
 If you want to install multiple versions of Python, see the section below
 entitled "Installing multiple versions".
-
 
 Documentation
 -------------
@@ -165,7 +161,6 @@ formatting requirements.
 For information about building Python's documentation, refer to `Doc/README.rst
 <https://github.com/python/cpython/blob/master/Doc/README.rst>`_.
 
-
 Converting From Python 2.x to 3.x
 ---------------------------------
 
@@ -173,7 +168,6 @@ Significant backward incompatible changes were made for the release of Python
 3.0, which may cause programs written for Python 2 to fail when run with Python
 3.  For more information about porting your code from Python 2 to Python 3, see
 the `Porting HOWTO <https://docs.python.org/3/howto/pyporting.html>`_.
-
 
 Testing
 -------
@@ -217,7 +211,6 @@ For example, if you want to install Python 2.7, 3.6, and 3.10 with 3.10 being th
 primary version, you would execute ``make install`` in your 3.10 build directory
 and ``make altinstall`` in the others.
 
-
 Issue Tracker and Mailing List
 ------------------------------
 
@@ -227,7 +220,6 @@ GitHub <https://github.com/python/cpython>`_.
 
 You can also follow development discussion on the `python-dev mailing list
 <https://mail.python.org/mailman/listinfo/python-dev/>`_.
-
 
 Proposals for enhancement
 -------------------------
@@ -239,7 +231,6 @@ All current PEPs, as well as guidelines for submitting a new PEP, are listed at
 `python.org/dev/peps/ <https://www.python.org/dev/peps/>`_.
 
 .. _python-ideas: https://mail.python.org/mailman/listinfo/python-ideas/
-
 
 Release Schedule
 ----------------
