@@ -21,7 +21,6 @@ This is Python version 3.10.0 alpha 1
    :alt: Python Zulip chat
    :target: https://python.zulipchat.com
 
-
 Copyright (c) 2001-2020 Python Software Foundation.  All rights reserved.
 
 See the end of this file for further copyright and license information.
@@ -217,7 +216,6 @@ For example, if you want to install Python 2.7, 3.6, and 3.10 with 3.10 being th
 primary version, you would execute ``make install`` in your 3.10 build directory
 and ``make altinstall`` in the others.
 
-
 Issue Tracker and Mailing List
 ------------------------------
 
@@ -227,7 +225,6 @@ GitHub <https://github.com/python/cpython>`_.
 
 You can also follow development discussion on the `python-dev mailing list
 <https://mail.python.org/mailman/listinfo/python-dev/>`_.
-
 
 Proposals for enhancement
 -------------------------
@@ -240,12 +237,10 @@ All current PEPs, as well as guidelines for submitting a new PEP, are listed at
 
 .. _python-ideas: https://mail.python.org/mailman/listinfo/python-ideas/
 
-
 Release Schedule
 ----------------
 
 See :pep:`619` for Python 3.10 release details.
-
 
 Copyright and License Information
 ---------------------------------
